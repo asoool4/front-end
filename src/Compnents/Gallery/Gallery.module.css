@@ -1,0 +1,55 @@
+.galleryBackGround {
+position: relative;
+}
+
+.textt {
+display: inline-block;
+}
+
+.textt h1 {
+font-size: 70px;
+color: #0f0439;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.textt a {
+color: white;
+}
+
+.textt {
+position: absolute;
+top: 40%;
+left: 41.26%;
+}
+
+.galleryContent {
+margin: 100px 0;
+}
+
+.list  {
+padding: 20px 0;
+font-size: 19px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-align: center;
+}
+
+.list a {
+color: #0f0439;
+padding: 0 20px;
+font-size: 26px;
+transition: all 0.3s;
+border-bottom: 3px solid rgba(0, 0, 0, 0.283);
+}
+.list {
+font-size: 12px;
+}
+
+.list a:hover {
+color: orangered;
+}
+.Holder{
+    padding: 0 45px;
+}
+.photobtn{
+    border-right: 2px solid rgba(0, 0, 0, 0.283);
+}

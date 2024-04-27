@@ -1,0 +1,29 @@
+.footer{
+    border-top: 4px solid #f6630f;
+    padding: 40px 10px 0;
+    background-color: #00123f;
+    color: white;
+}
+.footer img{
+    width: 50%;
+}
+.footer a{
+    color: rgb(0, 0, 0);
+}
+.footer li{
+    font-size: 17px;
+    padding-top: 7px;
+}
+.footer .list2 li {
+   display: inline-block; 
+   padding-right: 10px; 
+   font-size: 21px;
+   color: white;
+}
+.btn{
+text-align: left;   
+cursor: pointer;
+}
+.btn span{
+    color: aliceblue    ;
+}

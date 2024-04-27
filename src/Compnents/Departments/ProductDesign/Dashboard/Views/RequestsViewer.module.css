@@ -1,0 +1,19 @@
+.Title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.Title h2{
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    position: relative;
+}
+.Title h2::after{
+    position: absolute;
+    top: 100%;
+    left: 41%;
+    content: "";
+    height: 5px;
+    width: 150px;
+    background-color: #00123f;
+}

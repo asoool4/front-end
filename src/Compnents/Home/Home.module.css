@@ -1,0 +1,414 @@
+/* start of about */
+.about{
+   
+    background-image: url(./imgs/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    position: relative;
+    z-index: -21;
+}
+.about .overlay{
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.436);
+}
+.about .text{
+    position: absolute;
+    top: 20%;
+    z-index: 5  ;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.about .text h1{
+    color: white;
+    font-size: 50px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.about .text p{
+    font-size: 18px;
+    padding-top: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 20px;
+}
+.about .btn{
+
+    background-color: #f6630f;
+    padding: 10px 22px;
+    color: white;
+}
+.about .btn a{
+    color: white;
+}
+.about .btn:hover{
+    background-color: #0f0439;
+}
+/* End of about */
+/* sec1 start */
+.sec2{
+    background-image: url(./imgs/shapes.svg);
+    z-index: 1;
+}
+.sec2 .card{
+    padding: 50px;
+    position: relative;
+}
+.sec2 .card h2{
+    color: #0f0439;
+    font-size: 40px;
+    padding-top: 53px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sec2 .overlay{
+    width: 160px;
+    height: 50px;
+    position: absolute;
+    top: 26%;
+}
+.sec2 .card p{
+    font-size: 18px;
+    padding-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sec2 .btn{
+    padding: 8px 25px;
+    background-color: #0f0439;
+    border-radius: 0;
+    color: #fff;
+    font-size: 20px;
+    border: transparent;
+    z-index: 1;
+    position: relative;
+    cursor: pointer;
+}
+.sec2 .btn::after{
+    content: "";
+    width: 0%;
+    height: 100%;
+    background-color:#f6630f;
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    transition: all 0.4s linear;
+   
+}
+.sec2 .btn:hover::after{
+    width: 100%;
+}
+/* sec2 end */
+/* sec3 start */
+.sec3{
+    margin: 40px 0;
+    z-index: -3;
+}
+.sec3 .img{
+    display: flex;
+     justify-content: end;
+}
+.sec3 img{
+   margin-top: 30px;
+    width: 90%;  
+}
+.sec3 .bcard  .text{
+  background-color: #18006d;  
+}
+.sec3 .text{
+    background-color: #f6630f;
+    padding: 40px;
+    margin: 10px 0; 
+    border-radius:100% 0% 99% 1% / 31% 73% 27% 69%  ;
+    color: white;
+    box-shadow: 3px 20px 50px rgba(207, 79, 28, 0.372);
+}
+.sec3 .text p{
+    font-size: 16px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.sec3 .text h3{
+    font-size: 21px;
+    color: #0f0439;
+    padding-top: 10px;
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sec3 .text .l1{
+    margin-top: 20px;
+}
+
+/* ...................sec6.......................... */
+
+.sec6 {
+    background-color:#18006d;
+    padding: 30px 0;
+    position: relative;
+}
+.sec6 .overlay{
+    position: absolute;
+    inset: 0;
+    background-image: url(./imgs/shapes.svg);
+    z-index: -1;
+}
+.sec6 .text{
+     padding: 30px 0;
+}
+.sec6 .text h3{
+    color: #ffffff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.sec6 .text h4{
+    font-size: 22px;
+    color: #ffffff;
+    padding-bottom: 10px;
+}
+.sec6 .text p{
+    font-size: 16px;
+    color: #e8e1e1;
+}
+.sec6 .dcard{
+    position: relative;
+}
+.sec6 .dcard img{
+    width: 90%;
+    position: absolute;
+    left: 17%;
+    padding-top: 90px;
+}
+/* sec4 start */
+.sec4{
+    margin: 90px ;
+}
+.sec4{
+    z-index: -23;
+    margin: 90px 0;
+}
+.sec4 .roww{
+    display: flex;
+    justify-content:space-around;
+    padding: 70px 0;
+}
+.sec4 .cardd{
+    border: none;
+    position: relative;
+    box-shadow:3px 20px 50px rgba(207, 79, 28, 0.372);
+    cursor: pointer;
+}
+.sec4 .cardd .overlay{
+    background-color: #18006db0;
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    opacity: 0;
+    color: white;
+    transition: all 0.5s;
+}
+.sec4 .cardd:hover .overlay{
+    opacity: 1;
+}
+.sec4 .overlay .text1{
+    position: relative;
+    top: 60%;
+    left: 5%;
+}
+.sec4 .overlay .text1 h4{
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sec4 .overlay .text1 .btn{
+   background-color: #f6630f;
+   color: white;
+   font-size: 14px;
+   padding: 5px 9px;
+}
+.sec4 .down{
+    padding-top: 40px;
+}
+/* Home event */
+.Homeevent{
+    margin-bottom: 40px;
+}
+.Homeevent .eventbox{
+    background-color:rgb(236, 231, 231);
+    color: white;
+    box-shadow: 0 0 30px 10px #74748285;
+    border: 1px solid rgba(2, 2, 2, 0.475);
+}
+.Homeevent .eventbox .box1{
+   position: relative;
+}
+.Homeevent .eventbox .box1 .overlay{
+    position: absolute;
+    inset: 0;
+    background-color: #0e121c78;
+    z-index: 11;
+    padding: 30px;
+}
+.Homeevent .eventbox .box1 .overlay .text{
+    position: absolute;
+    top: 60%;
+}
+.Homeevent .eventbox .box1 .overlay .text h3{
+   font-size: 40px;
+   font-weight: 700;
+   color: white;
+   padding-bottom: 10px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Homeevent .eventbox .box1 .overlay .text span{
+    background-color: #00123f;
+    padding: 15px;
+    font-size: 20px;
+    position: absolute;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top: -190%;
+    left: 80%;
+}
+.Homeevent .eventbox .box2  {
+  margin: 20px 0;
+  padding-right: 10px;
+
+}
+.Homeevent .eventbox .box2 {
+    margin-bottom: 20px;
+}
+.Homeevent .eventbox .box2 h4{
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 4px;
+    color: #0f0439;
+}
+.Homeevent .eventbox .box2 p{
+    font-size: 16px;
+    color: black;
+}
+.Homeevent .eventbox .box2 img{
+    border: 2px solid rgba(0, 0, 0, 0.502);
+    box-shadow: 0 0 30px 10px #a8a8c285;
+}
+.Homeevent .btn{
+    padding: 8px 25px;
+    background-color: #0f0439;
+    border-radius: 0;
+    color: #fff;
+    font-size: 20px;
+    float: right;
+    border: transparent;
+    z-index: 1;
+    position: relative;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.Homeevent .btn::after{
+    content: "";
+    width: 0%;
+    height: 100%;
+    background-color:#f6630f;
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    transition: all 0.4s linear;
+   
+}
+.Homeevent .btn:hover::after{
+    width: 100%;
+}
+/* Start Of Gallery */
+.headText{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    margin: 15px 0;
+}
+.headText .text{
+    background-color:#0f0439;
+    padding: 10px 50px;
+    border-radius: 100% 0% 100% 0% / 41% 56% 44% 59% ;
+}
+.headText h4{
+    font-size: 40px;
+    color: #fff;
+}
+img{
+    width: 100%;
+}
+.galleryContent .card{
+    margin: 30px 0;
+    border: none;
+    cursor: pointer;
+    position: relative;
+}
+.galleryContent .card img{
+    border-radius: 15px ;
+}
+.galleryContent .card:hover .overlay{
+    opacity: 1;
+} 
+.galleryContent .card .overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.688);
+    z-index: 1;
+    border-radius: 15px ;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all 0.5s; 
+}
+.galleryContent .card .holder{
+    width: 80%;
+    height: 80%;
+}
+.galleryContent .textCard h3{
+    color: white;
+    font-size: 24px;
+    padding: 0;
+}
+.galleryContent .textCard span{
+    color: orange;
+}
+.galleryContent .textCard h5{
+    font-size: 16px;
+    padding: 0;
+}
+.galleryContent .btns{
+    display: flex;
+    justify-content: center;
+    margin:35px  0;
+}
+.galleryContent .btns .btn{
+    padding: 8px 25px;
+    background-color: #0f0439;
+    border-radius: 0;
+    color: #fff;
+    font-size: 20px;
+    border: transparent;
+    z-index: 1;
+    position: relative;
+    cursor: pointer;
+}
+.galleryContent .btn::after{
+    content: "";
+    width: 0%;
+    height: 100%;
+    background-color:#f6630f;
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    transition: all 0.4s linear;
+   
+}
+.btn:hover::after{
+    width: 100%;
+}
+/* End of Gallery */
